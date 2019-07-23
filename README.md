@@ -15,7 +15,7 @@ The New York Public Library holds within its archives dozens of directories cont
 
 1. extraction.ipynb: The noval data extraction method that we generated to extract data from the jpg files. 
 2. two_columns.csv: The dataframe we obtained by using the data extraction method we came up with. 
-3. sample pages
+3. test_pages: Three examples of pages used to develop and train extraction method
 4. extracted data from initial project
 5. analysis code
 6. resulting visualizations
