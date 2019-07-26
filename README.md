@@ -17,7 +17,26 @@ The New York Public Library holds within its archives dozens of directories cont
 2. two_columns.csv: The dataframe we obtained by using the data extraction method we came up with. 
 3. test_pages: Three examples of pages used to develop and train extraction method
 4. eda_spatial_analysis.ipynb:
+
 5. R_gender_classification (1).ipynb:
+Names Splitting:
+
+         A name consists of the following format:
+         First name + middle name1 + middle name2 +... + middle name n + Last Name
+         Where n could take upto 19 values.
+   
+      2. Using space as a delimiter ,we split the names  into the above mentioned columns.
+
+      3. For the purpose of our analysis, we extract only the first names and the last names as they are the most consistent as opposed to the middle names which may or may not occur for all observations.
+      
+      
+
+
+
+Cleaning the First Name:
+The data from the csv file is loaded into Pandas.
+The Names column, which contains the names of the people who operate businesses(s) are first cleaned by removing garbage names such as :
+
 6. gender_Analysis.ipynb:
 7. resulting visualizations.ipynb: 
 8. final report: A copy of our final report for this project
